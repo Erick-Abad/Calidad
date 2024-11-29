@@ -1,0 +1,52 @@
+/* Estilos generales para la tabla */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: #f4f4f9;
+    color: #333;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .tabla-bardcore {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tabla-bardcore th,
+  .tabla-bardcore td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+  }
+  
+  .tabla-bardcore th {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .tabla-bardcore td {
+    background-color: #fff;
+  }
+  
+  .tabla-bardcore tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .condicion {
+    text-align: center;
+    font-weight: bold;
+  }
+  

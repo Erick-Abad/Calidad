@@ -1,63 +1,26 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Página web dedicada a la búsqueda de calidad en productos y servicios.">
-    <title>Calidad</title>
-    <link rel="stylesheet" href="style.css"> <!-- Vincularemos el CSS más adelante -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calidad - Continental</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Encabezado de la página -->
-    <header>
-        <nav>
-            <div class="logo">
-                <h1>Calidad</h1>
-            </div>
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Nosotros</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Contactanos</a></li>
-            </ul>
-        </nav>
-    </header>
+  <h1>Calidad Durán Continental</h1>
+  <button id="buscar-btn">Buscar llanta por calidad</button>
 
-    <!-- Sección principal -->
-    <main>
-        <section class="bienvenida">
-            <h2>Bienvenido a Calidad</h2>
-            <p>Nos dedicamos a ofrecerte los mejores productos y servicios con garantía de calidad.</p>
-        </section>
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>Opciones de Excel</h2>
+      <button class="option-btn">Escoger un Excel nuevo</button>
+      <button class="option-btn">Usar Excel por defecto</button>
+      <button id="close-btn" class="close-btn">Cerrar</button>
+    </div>
+  </div>
 
-        <section class="busqueda">
-            <h3>Buscar productos de calidad</h3>
-            <form action="#" method="get">
-                <input type="text" placeholder="¿Qué estás buscando?" name="busqueda" required>
-                <button type="submit">Buscar</button>
-            </form>
-        </section>
-
-        <section class="productos">
-            <h3>Productos Destacados</h3>
-            <div class="producto">
-                <img src="producto1.jpg" alt="Producto 1">
-                <p>Producto 1</p>
-            </div>
-            <div class="producto">
-                <img src="producto2.jpg" alt="Producto 2">
-                <p>Producto 2</p>
-            </div>
-            <div class="producto">
-                <img src="producto3.jpg" alt="Producto 3">
-                <p>Producto 3</p>
-            </div>
-        </section>
-    </main>
-
-    <!-- Pie de página -->
-    <footer>
-        <p>&copy; 2024 Calidad. Todos los derechos reservados.</p>
-    </footer>
+  <script src="app.js"></script>
 </body>
 </html>
+
